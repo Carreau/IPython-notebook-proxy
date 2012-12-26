@@ -29,12 +29,8 @@ var remove_route = function(dict, location, port, remote) {
     delete dict['localhost/'+location+'/']
     return dict
 }
-var router = add_route(default_router, 'static', 8888);
-var router = add_route(default_router, 'ipython', 8888);
-var router = add_route(default_router, 'test', 8889);
-var router = add_route(default_router, 'dummy', 9000);
-var router = remove_route(default_router, 'dummy', 9000);
 
+var router = default_router
 
 var options = {
   router: router
@@ -61,6 +57,22 @@ var rem_rule = function(loc, port){
     updateRoutes(proxyServer.proxy.proxyTable, new_router)
 }
 
+
+console.log('==================================')
+console.log('add remove routing rules like so :')
+console.log('add_rule("/myurl/",portnumber)')
+console.log('rem_rule("/myurl/",portnumber)')
+console.log('')
+console.log('Use Ctrl+C to exit')
+console.log('')
+console.log('inspect ')
+console.log('> proxyServer.proxy.proxyTable.router')
+console.log('to see current routes')
+console.log('')
+console.log('Example :')
+console.log('> add_rule("/ipython/",8888)')
+console.log('')
+console.log('==================================')
 var r = repl.start();
 
 
