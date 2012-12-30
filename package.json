@@ -18,6 +18,10 @@
     "proxy",
     "notebook"
   ],
+  "dependencies": {
+    "http-proxy" : "~0.8"
+  },
+
   "author": "Matthias Bussonnier",
   "license": "BSD",
   "readmeFilename": "README.md",
