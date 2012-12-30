@@ -1,0 +1,25 @@
+{
+  "name": "IPython-notebook-proxy",
+  "version": "0.0.1",
+  "description": "A small IPython-Notebook proxy",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Carreau/IPython-notebook-proxy.git"
+  },
+  "keywords": [
+    "ipython",
+    "proxy",
+    "notebook"
+  ],
+  "author": "Matthias Bussonnier",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "598120938d3c322599a967a5fceee171b2d834ef"
+}
