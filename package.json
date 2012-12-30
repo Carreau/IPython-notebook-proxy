@@ -2,7 +2,7 @@
   "name": "IPython-notebook-proxy",
   "version": "0.0.1",
   "description": "A small IPython-Notebook proxy",
-  "main": "main.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
