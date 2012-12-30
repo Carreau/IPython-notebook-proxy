@@ -19,7 +19,8 @@
     "notebook"
   ],
   "dependencies": {
-    "http-proxy" : "~0.8"
+    "http-proxy" : "~0.8",
+    "repl" : "~0.1"
   },
 
   "author": "Matthias Bussonnier",
