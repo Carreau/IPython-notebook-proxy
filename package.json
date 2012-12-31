@@ -23,6 +23,7 @@
   "readmeFilename": "README.md",
   "gitHead": "598120938d3c322599a967a5fceee171b2d834ef",
   "dependencies": {
-    "http-proxy": "~0.8.7"
+    "http-proxy": "~0.8.7",
+    "commander": "~1.1.1"
   }
 }
