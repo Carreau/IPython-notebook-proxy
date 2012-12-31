@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 var program = require('commander');
 
+var version = require('../package').version
 program
-  //.version('0.0.1') // get that from package.json
+  .version(version) // get that from package.json
   .option('-p, --port <n>', 'The port to listen on', parseInt, 80)
   .option('-r, --repl', 'Start an REPL to give interactive command')
   .parse(process.argv);
