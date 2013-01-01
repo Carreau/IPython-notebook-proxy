@@ -9,6 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "notebook-proxy":"./bin/notebook-proxy.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Carreau/IPython-notebook-proxy.git"
