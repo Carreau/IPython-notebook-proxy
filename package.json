@@ -1,5 +1,5 @@
 {
-  "name": "IPython-notebook-proxy",
+  "name": "ipython-notebook-proxy",
   "version": "0.0.1",
   "description": "A small IPython-Notebook proxy",
   "main": "index.js",
